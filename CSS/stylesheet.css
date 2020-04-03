@@ -1,0 +1,84 @@
+/*FONT CSS*/
+@font-face {
+    font-family: 'montserrat_alternatesregular';
+    src: url('fonts/montserratalternates-regular-webfont.woff2') format('woff2'),
+         url('fonts/montserratalternates-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+@font-face {
+    font-family: 'courier_prime';
+    src: url('fonts/courier_prime-webfont.woff2') format('woff2'),
+         url('fonts/courier_prime-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/*GENERAL CSS*/
+a {
+    color: #000000;
+    margin: 10px;
+}
+
+
+
+/*HEADER CSS*/
+#logo {
+    padding-top: 25px;
+    padding-bottom: 25px;
+    background-color: #000000;
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 0px;
+    border-bottom: 35px solid;
+    border-color: black
+}
+
+#links{
+    font-size: 30px;
+    font-family: 'montserrat_alternatesregular';
+    padding-top: 15px;
+    padding-bottom: 15px;
+    background-color: #E88CBA;
+    border-radius: 30px;
+    display: flex;
+    justify-content:space-around;
+    width: 100%;
+    position: absolute;
+    left: 0px;
+    top: 240px;
+}
+
+/*SIDEBAR SECTION UGH*/
+
+#email {
+    position: absolute;
+    font-size: 18px;
+    top: 575px;
+    left: 20px;
+}
+
+#instagram {
+    position: absolute;
+    font-family: 'courier_prime';
+    font-size: 18px;
+    top: 725px;
+    left:60px;
+}
+
+/*INFO SECTION OF SITE*/
+
+p{
+    font-family: 'courier_prime';
+    position:absolute;
+}
+
+#body {
+    width: 1900px;
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(211, 164, 218);}
+
