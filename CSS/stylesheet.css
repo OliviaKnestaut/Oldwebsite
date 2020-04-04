@@ -15,7 +15,7 @@
 }
 
 /*LINKS N STUFF*/
-a:link {
+a:link, a:visited {
   color: #000000;
     margin: 10px;
     text-decoration: none;
@@ -23,9 +23,6 @@ a:link {
     font-size: 35px;}
 
 a:hover {
-  color: #FFFFFF;}
-
-a:visited {
   color: #FFFFFF;}
 
 #innerlinks{
@@ -47,7 +44,7 @@ p, ul{
 h1 {
     font-family: 'courier_prime';
     font-weight: bolder;
-    font-size: 45px;
+    font-size: 35px;
     line-height: 40px;
 }
 h3{
@@ -133,7 +130,7 @@ main {
     align-items: center;
     flex-direction: column;
     text-align: center;
-    width: 45%;
+    width: 85%;
 }
 .excerpt{
     font-size: 15px;
@@ -153,13 +150,42 @@ main {
 .footer {
     background: #000000;
 }
-#backtotop{
+
+.footercontent{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 20px;
+}
+.footeritem {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 80%;
+}
+
+#email {
+    color: #FFFFFF;
+}
+a#instalink {
+    color: #FFFFFF;
+    font-family: 'courier_prime';
+    font-size: 25px;
+}
+a#instalink:hover {
+    color: #E88CBA;
+}
+
+a#footerlink{
     color: #e88CBA;
     display: flex;
     justify-content: center;
     padding: 30px;
 }
-a#backtotop:hover {
+a#footerlink:hover {
   color: #FFFFFF;
 }
 
@@ -189,4 +215,16 @@ a#backtotop:hover {
 .photo {
     width: 45%;
     }
+.writingelement{
+        width: 45%;
+    }
+.footercontent{
+    display: flex;
+    flex-direction: row;
+}
+.footeritem {
+    display: flex;
+    flex-direction: column;
+    width: 30%;
+}
 }
