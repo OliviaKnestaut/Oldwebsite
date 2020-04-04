@@ -142,9 +142,26 @@ main {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
-
+    align-items: flex-start;
 }
 
+.graphicdesignelement {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+    width: 85%;
+    margin: 10px;
+}
+
+.graphicdesigngallery{
+    display: flex;
+    justify-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+    padding: 25px;
+}
 
 
 .footer {
@@ -156,6 +173,7 @@ main {
     justify-content: center;
     flex-direction: row;
     flex-wrap: wrap;
+    align-content: flex-end;
     padding: 20px;
 }
 .footeritem {
@@ -218,6 +236,11 @@ a#footerlink:hover {
 .writingelement{
         width: 45%;
     }
+
+.graphicdesignelement{
+        width: 45%;
+    }
+
 .footercontent{
     display: flex;
     flex-direction: row;
