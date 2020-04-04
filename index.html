@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <title>Redo</title>
-    <link href="CSS/stylesheet2.css" type="text/css" rel="stylesheet" />
+    <link href="CSS/stylesheet.css" type="text/css" rel="stylesheet" />
 </head>
 <body>
 
@@ -12,12 +12,12 @@
 
     <!-- Header -->
     <header class="header">
-        <img src="images/logo.png" alt="" width="208">
+        <img id="header" src="images/logo.png" alt="" width="208">
     </header>
 
     <!-- Links -->
     <section class="links">
-        <a href="#home">home</a>
+            <a href="#header">home</a>
             <a href="#photography">photography</a>
             <a href="#writing">writing</a>
             <a href="#graphicdesign">graphic design</a>
@@ -26,46 +26,80 @@
 <div class="flex-container">
    <!-- Sidebar -->
     <aside class="sidebar">
-        <img src="images/sidebar/photo1.png" alt="">
-        <img src="images/sidebar/contactv2.png" alt="">
-        <img src="images/sidebar/photo2.png" alt="">
+        <img src="images/sidebar/photo1.png" alt="" width="100%">
+        <img src="images/sidebar/contactv2.png" alt="" width="100%">
+        <img src="images/sidebar/photo2.png" alt="" width="100%">
 
     </aside>
 
-    <!-- Content -->
-    <section class="content">
-        <img src="images/headers/aboutmeheader.png" alt="" >
+    <!-- Intro -->
+    <section class="intro">
+        <img class="one" src="images/headers/aboutmeheader.png" alt="" >
         <p>My name is Olivia Knestaut and I am a digital communication arts major at Cab Calloway School of the Arts. I am in the class of 2022 and have a current weighted GPA of 4.94. I am intrested in writing, photography, film, and graphic design. In my freetime, I enjoy travelling the world, reading, and crocheting. I am a member of numerous extracurricular clubs and sports such as Communcation Arts Honor Society, Technology Student Association, Girl Scouts, and the Charter School of Wilmington Crew Team.</p>
-        <img src="images/headers/awardsheader.png" alt="">
-        <ul>
-            <li>Girl Scouts of the United States of America</li>
-                <ul>
-                    <li>Girl Scout Silver Award</li>
-                </ul>
-            <li>Technology Student Association</li>
-                <ul>
-                    <li>Challenging Technology Issues (7th Nationally)</li>
-                    <li>Children’s Story (5th Nationally)</li>
-                    <li>Fashion Design and Technology (2nd in State)</li>
-                    <li>Pin Design (2nd in State)</li>
-                </ul>
-            <li>Scholastics Art and Writing Awards</li>
-                <ul>
-                    <li>Digital Art Silver Key</li>
-                    <li>Digital Art Honorable Mention</li>
-                    <li>Short Story Silver Key</li>
-                    <li>Personal Essay & Memoir Silver Key</li>
-                    <li>Poetry Honorable Mention</li>
-                </ul>
-        </ul>
+            <img class="two" src="images/headers/awardsheader.png" alt="">
+        <div class="containerone">
+               <ul class="">
+                <li>Girl Scouts of the United States of America</li>
+                    <ul>
+                        <li>Girl Scout Silver Award</li>
+                    </ul>
+                <li>Technology Student Association</li>
+                    <ul>
+                        <li>Challenging Technology Issues (7th Nationally)</li>
+                        <li>Children’s Story (5th Nationally)</li>
+                        <li>Fashion Design and Technology (2nd in State)</li>
+                        <li>Pin Design (2nd in State)</li>
+                    </ul>
+                <li>Scholastics Art and Writing Awards</li>
+                    <ul>
+                        <li>Digital Art Silver Key</li>
+                        <li>Digital Art Honorable Mention</li>
+                        <li>Short Story Silver Key</li>
+                        <li>Personal Essay & Memoir Silver Key</li>
+                        <li>Poetry Honorable Mention</li>
+                    </ul>
+            </ul>
+            <p id="years"> <strong> <br>2017 <br> <br>2018 <br>2018 <br>2019 <br>2019 <br> <br> 2019 <br>2019 <br>2019 <br> 2020 <br> 2020 <br></strong></p>
+        </div>
+
+          <img class="three" src="images/headers/skills.png" alt="">
+        <div class="containertwo">
+           <ul>
+              <li><strong>Adobe</strong></li>
+              <ul>
+                  <li>Illustrator</li>
+                  <li>Photoshop</li>
+                  <li>InDesign</li>
+              </ul>
+           </ul>
+           <ul>
+              <li><strong>Web</strong></li>
+              <ul>
+                  <li>HTML 5</li>
+                  <li>CSS 3</li>
+              </ul>
+           </ul>
+           <ul>
+              <li><strong>Languages</strong></li>
+              <ul>
+                  <li>English</li>
+                  <li>French</li>
+              </ul>
+           </ul>
+        </div>
 
     </section>
 </div>
 
 
-    <!-- Footer -->
+    <!-- General page content -->
+    <section class="content">
+        <img class="four" id="photography" src="images/headers/photographyheader.png" alt="">
+        <img class="five" id="writing" src="images/headers/writingheader.png" alt="">
+        <img class="six" id="graphic design" src="images/headers/graphicdesignheader.png" alt="">
+    </section>
     <footer class="footer">
-        Footer
+        <a id="backtotop" href="#header">back to top</a>
     </footer>
 
 </main>

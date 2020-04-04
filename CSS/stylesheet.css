@@ -14,81 +14,103 @@
     font-style: normal;
 }
 
-/*GENERAL CSS*/
-a {
-    color: #000000;
+
+/*LINKS & TEXT*/
+
+a:link {
+  color: #000000;
     margin: 10px;
+    text-decoration: none;
+    font-family: 'montserrat_alternatesregular';
+    font-size: 35px;
 }
 
-/*INFO SECTION OF SITE*/
+a:hover {
+  color: #FFFFFF;
+}
 
-p{
+p, ul{
     font-family: 'courier_prime';
-    position:absolute;
+    font-size: 25px;
+    line-height: 50px;
+}
+
+body {margin: 0;}
+
+img.one, img.two, img.three, img.four, img.five, img.six {
+    max-width: 100%;
+    max-height: 100vh;
 }
 
 
-
-main, header, section, aside, footer {
-    margin: 0;
-    padding: 20px;
-    border: 1px solid #000000;
-    color: #ffffff;
-}
-
+/*BODY*/
 main {
-    background: #000000;
+    width: 100%;
+    height: 100%;
 }
-
 .header {
-     padding-top: 25px;
-    padding-bottom: 25px;
-    background-color: #000000;
+    background: #000000;
     display: flex;
     justify-content: center;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 0px;
-    border-bottom: 35px solid;
-    border-color: black
+    padding: 25px;
 }
-
 
 .links {
-    font-size: 30px;
-    font-family: 'montserrat_alternatesregular';
-    padding-top: 15px;
-    padding-bottom: 15px;
-    background-color: #E88CBA;
-    border-radius: 30px;
+    background: #E88CBA;
+    border-radius: 20px;
     display: flex;
-    justify-content:space-around;
-    width: 100%;
-    position: absolute;
-    left: 0px;
-    top: 240px;
+    justify-content: space-around;
+    padding: 15px;
 }
 
-.content {
-    background: #129a22;
+.intro {
+    background: #FFFFFF;
+    padding: 25px;
 }
-
 
 .sidebar {
-    border: 1px solid #000000;
-    background: #673ab7;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 25px;
 }
 
+.flex-container {
+        display: flex;
+    }
+    .intro {
+    flex: 1;
+}
+
+.sidebar {
+    flex: 0 1 400px;
+}
+
+
+/*SKILLS SECTION*/
+.containerone {
+    display: flex;
+    flex-direction: row;
+}
+p#years {
+   padding-left: 60px;
+}
+.containertwo {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content{
+    padding: 25px;
+}
 .footer {
-    border: 1px solid #000000;
-    background: #616161;
+    background: #000000;
 }
-
-img {
-    padding: 0;
-    display: block;
-    margin: 0 auto;
-    max-height: 100%;
-    max-width: 100%;
+#backtotop{
+    color: #e88CBA;
+    display: flex;
+    justify-content: center;
+}
+a#backtotop:hover {
+  color: #FFFFFF;
 }
