@@ -250,4 +250,7 @@ a#footerlink:hover {
     flex-direction: column;
     width: 30%;
 }
+#header{
+    width: 15%;
+    }
 }
