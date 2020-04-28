@@ -77,8 +77,6 @@ main {
 
 #logo{
     width: 40%;
-    display: flex;
-
 }
 
 .links {
@@ -99,7 +97,7 @@ main {
 .sidebar {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: right;
     padding: 25px;
     align-items: baseline;
 }
@@ -179,11 +177,12 @@ main {
 .footercontent{
     display: flex;
     justify-content: center;
-    flex-direction: row;
+    flex-direction: column;
     flex-wrap: wrap;
     align-content: flex-end;
     padding: 20px;
 }
+
 .footeritem {
     display: flex;
     justify-content: center;
@@ -220,7 +219,7 @@ a#footerlink:hover {
 
 
 /*TABLET & DESKTOP CHANGES*/
-@media screen and (min-width: 1000px){
+@media screen and (min-width: 750px){
 
 .flex-container {
         display: flex;
