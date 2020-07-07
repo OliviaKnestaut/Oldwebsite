@@ -62,6 +62,9 @@ img.one, img.two, img.three, img.four, img.five, img.six {
     max-height: 100vh;
 }
 
+img {
+    border-radius: 30px;
+}
 
 /*BODY*/
 main {
