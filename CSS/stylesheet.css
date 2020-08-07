@@ -197,6 +197,12 @@ main {
     padding: 25px;
 }
 
+.Graphicdesignpiece{
+    width: 90%;
+    border-radius: 35px;
+}
+
+
 /*FOOTER*/
 .footer {
     background: #000000;
@@ -211,6 +217,7 @@ main {
     justify-content: center;
     padding: 20px;
 }
+
 
 .footeritem {
     display: flex;
@@ -278,8 +285,9 @@ a#footerlink:hover {
         width: 45%;
     }
 
+
 .graphicdesignelement{
-        width: 100%;
+     width: 45%;
     }
 
 .footercontent{
