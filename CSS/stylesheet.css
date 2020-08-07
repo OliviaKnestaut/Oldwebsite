@@ -300,5 +300,8 @@ a#footerlink:hover {
     iframe{
         width: 900px;
     }
+    img {
+        border-radius: 35px;
+    }
 
 }
